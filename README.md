@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Mobius Simulator
 
-Author: (TODO: your name)
+Author: Xinyi Sun
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: This is a particularly simple game that requires you to catch two moving balls when walking on a Mobius strip while dodging the barriers.
 
 Screen Shot:
 
@@ -10,9 +10,9 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+When you think you're close enough to a ball, press C to catch it. You'll hear a special sound when the ball is successfully collected. Left click mouse to grab perspective. Press Escape to ungrab it. The only key available for moving is W (forward).
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: I created the simple model and sound of the game myself.
 
 This game was built with [NEST](NEST.md).
 

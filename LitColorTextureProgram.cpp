@@ -62,7 +62,7 @@ LitColorTextureProgram::LitColorTextureProgram() {
 		"void main() {\n"
 		"	gl_Position = OBJECT_TO_CLIP * Position;\n"
 		"	position = OBJECT_TO_LIGHT * Position;\n"
-		"	normal = NORMAL_TO_LIGHT * Normal;\n"
+		"	normal = NORMAL_TO_LIGHT * vec3(abs(Normal[0]),abs(Normal[1]),abs(Normal[2]));\n"
 		"	color = Color;\n"
 		"	texCoord = TexCoord;\n"
 		"}\n"
